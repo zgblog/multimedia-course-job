@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Au</title>
+	<style>
+		body{
+			background-image:url("../背景/au.jpg");
+			background-size:cover;
+			background-repeat:no-repeat;
+			background-attachment: fixed;
+		  	color:aliceblue
+		}
+		h1{
+			color:#EBAEAF
+		}
+		h3{
+			color:cyan;
+		}
+	</style>
+</head>
+
+<body>
+	<a href="../../../index.html">
+	<img src="../返回 .png" width="50" alt=""/>
+	</a>
+	<h1 align="center">实验1  音频信号的获取与处理</h1>
+<div>
+	<h3>一、实验目的和要求</h3>
+<ol>
+	
+	<li>学会通过麦克风录制一段语音信号。</li>
+	<li>学会通过线性输入录制一段音乐信号作为背景音乐。</li>
+    <li>学会编辑音频，如剪切、混合粘贴等。</li>
+	<li>学会制作特殊效果，如增加回声等。</li>
+</ol>
+</div>
+	<hr />
+<h3>二、实验内容：</h3>
+<ol>
+	<li>麦克风录制一段语音。使用Windows操作系统附带的录音机软件或使用Cool Edit 2000录制一段解说词声音。（替代素材中的sound1，录制30秒，个人介绍，第一句说自己名字，我叫XXX........,需要做去噪声处理）</li>
+	<li>用CD唱机录制一段音乐。使用Cool Edit 2000软件从CD唱机录制一段音乐，将作为解说词的配乐。(可以直接用素材中的sound2)</li>
+    <li>使用Cool Edit 2000编辑音频。对解说词音频文件进行剪辑，剪掉开头无用的部分；将解说词和音乐文件进行混音处理，编辑成一个配乐解说音频文件。（录制的sound1和sound2混音为sound，替代素材中原来的sound）</li>
+</ol>
+<hr />
+
+<h3>三、实验环境</h3>
+      &nbsp;&nbsp;Cool Edit 2000
+<hr />
+<h3>四、实验步骤（对照截图具体说明，尽量详细）</h3>
+<ol>
+  
+ 	<li>录音</li>
+	设置录音时间为30秒
+	<li>删除无用的部分</li>
+ 	<li>(1)打开sound2.wav文件。<br />
+	(2)执行“效果”→常用效果→“回声”命令，在弹出的对话框中进行如图所示的设置，然后单击OK按钮。<br />
+    (3)执行File→Save命令保存文件。
+	</li>
+ 
+	<li>(1)打开soundl文件。<br />
+	(2)执行Edit→Mix Paste命令，出现如图El.7所示的对话框。<br />
+	(3)在对话框中，设置被粘贴文件的音量Volume L和R为100，  在混合方式框中选择Overlap，激活Crossfade选项输入时  间为50ms，在被粘贴数据来源框中选择FromFile，单击Select File按钮选择sound2文件，指定Looppaste为1次，单击OK完成按钮。<br />
+	(4)执行File→SaveAs命令，文件名存为sound3，单击OK按钮.完成混音处理。
+	</li>
+ </ol>
+<hr />
+<h3>五、实验体会</h3>   
+  <p>&nbsp;&nbsp;本次实验要求我们会使用windows录音机或Cool Edit录制音频文件，并使用Cool Edit对录音的文件做简单的剪切处理，会简单的使用它做回声、降噪等效果处理，懂得将多个音频文件混合到一起成为一个音频。
+  这次的实验要求比较简单，容易实现，让我们了解了录音的基本操作及简单的了解Cool Edit这个音频处理软件。</p>
+<hr />
+	<font style="color:blue;font-weight: bold">原音：</font>
+	这是一段音频原声
+	<br />
+	<audio controls="controls">
+		<source src="sound1.wav">
+	</audio>
+	<br />
+	<font style="color:blue;font-weight: bold">背景音乐：</font>
+	这是一段背景音乐
+	<br />
+	<audio controls="controls">
+		<source src="sound2.wav">
+	</audio>
+	<br />
+	<font style="color:blue;font-weight: bold">合成音乐：</font>
+	这是一段合成音乐
+	<br />
+	<audio controls="controls">
+	<source src="sound3.wav">
+	</audio>
+</body>
+</html>
