@@ -1,0 +1,171 @@
+/* CSS Document */
+body{
+	font-family: "楷体", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.b{
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.my{
+	background-color:dodgerblue;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding:5px;
+	font-size: 15px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.student{
+	position: fixed;
+	text-align: center;
+	font-size: 20px;
+	color: aliceblue;
+	right:20px;
+	top:250px;
+	background-color:rgba(0,0,0,0.83);
+	float: left;
+	width:300px;
+	border:1px groove #0CB5A1;
+	border-radius: 5px;
+	padding:5px;
+}
+.body{
+	border-top-left-radius: 5px;
+	width:80%;
+	background-color: aliceblue;
+	position: relative;
+	left: 10%;
+	padding-left: 10px;
+	margin-top: 10px;
+	padding-top:5px;
+	background-color:rgba(255,255,255,0.6);
+}
+.article{
+	border-top-left-radius: 10px;
+	width:60%;
+	background-color:white;
+	opacity: 1.0;
+	z-index: 2;
+}
+.title{
+	border-top-left-radius: 10px;
+	background-color:darkorchid;
+	color:white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:20px;
+	font-weight: bold;
+	padding:10px;
+	margin-top: 10px;
+}
+.text{
+	border-top:1px groove #0C6862;
+	margin-top:10px;
+	border-radius: 3px;
+	padding-top: 5px;
+	width:100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.boximg{
+	width:100px;
+	height:70px;
+	position: absolute;
+	left: 10px;
+	top:30px;
+}
+.textheader{
+	background-color:#0C1959;
+	border-radius: 5px;
+	margin-left: 10px;
+	color:white;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 9px;
+}
+.content{
+	position: relative;
+	left:28%;
+	width:70%;
+	margin-top: 10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+header{
+	width:100%;
+	height: 60px;
+	background-color:#057F8D;
+	position: fixed;	
+	top:0;
+	z-index: 2;
+	text-align: right;
+		}
+footer{
+	width:100%;
+	height: 30px;
+	background-color: darkturquoise;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font:bolder 20px;
+	color:white;
+	text-align: center;
+	padding:5px;
+}
+.h a:link,a:visited{
+	color:white;
+	text-decoration:none;
+	padding:4px;
+		}
+.h a:hover{
+	color:red;
+	
+}
+.h1{
+	position: relative;
+	top:20px;
+	font-size: 25px;
+	z-index: 1;
+}
+.music{
+	top:75px;
+	right: 145px;
+	position:absolute;
+	border: 1px groove #840C0E;
+	width:200px;
+	height:116px;
+	z-index: 1;
+}
+.imgbox{
+	width:230px;
+	height:320px;
+	border:1px groove #000000;
+	float: left;
+	margin:10px;
+}
+.img{
+	width:210px;
+	height:280px;
+	position:relative;
+	left:10px;
+	top:5px;
+
+}
+.imgbottom{
+	position:relative;
+	background-color:navy;
+	color:white;
+	padding: 5px;
+	margin-left: -1px;
+	margin-top: 9px;
+}
+hr{
+}
+.gushi{
+	background-color: cadetblue;
+	width:60%;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	margin-bottom: 10px;
+}
